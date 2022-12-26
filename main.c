@@ -22,6 +22,25 @@ int main() {
 
     printf("Twój cięzar w złocie jst wart %.2f zł.\n", wartosc);
     printf("Z pewnością jesteś tyle wart! W razie spadku cen złota\n");
-    printf("Jedz więcej, aby utrzymać swoją wartość");
+    printf("Jedz więcej, aby utrzymać swoją wartość.\n");
+
+    //3.1 - experiment
+    float ciezar_e, wartosc_e, uncja_zlota;
+    printf("Are you valuable as much as your weight in gold?\n");
+    printf("Let's check it out!\n");
+    printf("Provide our weight in kg: ");
+
+    scanf("%f", &ciezar_e);
+
+    printf("\n");
+    printf("Please provide current gold unit value in PLN: ");
+
+    scanf("%f", &uncja_zlota);
+
+    wartosc_e = uncja_zlota * ciezar * 32.151;
+    printf("Your weight in gold is equal: %.2f in PLN\n", wartosc_e);
+    printf("Indeed, you are valuable as much as in gold! In case of recession\n");
+    printf("eat more, to maintain your value!\n");
+
     return 0;
 }
