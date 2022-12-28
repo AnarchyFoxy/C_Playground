@@ -42,5 +42,14 @@ int main() {
     printf("Indeed, you are valuable as much as in gold! In case of recession\n");
     printf("eat more, to maintain your value!\n");
 
+    //3.2 printing integer value with mistake
+    int ten = 10;
+    printf("Właściwy sposób: ");
+    printf("%d minus %d równa się %d\n", ten, 2, ten -2);
+    printf("The wrong way: ");
+    printf("%d minus %d equals %d\n", ten); //missing two args
+
+
+
     return 0;
 }
